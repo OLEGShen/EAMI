@@ -1,1 +1,6 @@
 # EAMI
+## Abstract
+With the rise of service computing, cloud computing, and IoT, service ecosystems are becoming increasingly complex. The intricate interactions among intelligent agents make abnormal emergence analysis challenging, as traditional causal methods focus on individual trajectories. Large language models offer new possibilities for Agent-Based Modeling (ABM) through Chain-of-Thought reasoning to reveal agent intentions. However, existing approaches remain limited to microscopic and static analysis.
+This paper introduces a framework: Emergence Analysis based on Multi-Agent Intention (EAMI), which enables dynamic and interpretable emergence analysis. EAMI first employs a dual-perspective thought track mechanism, where an Inspector Agent and an Analysis Agent extract agent intentions under bounded and perfect rationality. Then, k-means clustering identifies phase transition points in group intentions, followed by a Intention Temporal Emergence diagram for dynamic analysis. We validate EAMI in complex O2O service system and the Stanford AI Town experiment, with ablation studies confirming its effectiveness, generalizability, and efficiency. This framework provides a novel paradigm for abnormal emergence and causal analysis in service ecosystems.
+
+![fig2](https://github.com/user-attachments/assets/07855095-7344-48d6-8406-5f2844ca3ebd)
